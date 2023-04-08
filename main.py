@@ -91,8 +91,6 @@ while True:
                 if match:
                     url = match.group("url")
                     webbrowser.open(url)
-                else:
-                    print("No URL found in the text.")
 
             window["-INPUT-"].update("")
     elif event == "Save":
